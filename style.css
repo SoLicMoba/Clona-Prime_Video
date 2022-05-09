@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,300;1,300&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+}
+
+header { 
+    background-color: #000033;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+.HeaderText {  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color:rgb(230, 230, 230);
+    padding: 20px;
+}
+
+
+.Header-Menu-Gap {
+    display: flex;
+    gap: 12px;
+    padding-right: 23rem;
+    
+    
+}
+
+.HeaderGap {
+    font-family: sans-serif;
+    color: rgb(224, 224, 224);
+    padding-right: 15px;
+}
+
+.navtwo {
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    padding-right: 2rem;
+    font-family: sans-serif
+}
+
+.navtwott {
+    width: 25vh;
+}
+
+.navtwott:hover {
+    background: #707070;
+}
+
+.HeaderImg {
+    /* Logo ( Prime Vídeo ) */
+}
+
+.Main {
+    background-color: black;
+    padding-left: 70px;
+    padding-top: 120px;
+    color:white;
+
+
+}
+
+.Main, BG {
+    background-image: linear-gradient(to right, black,
+    transparent 58%), url("/img/Banner\ Principal.jpg");
+    
+}
+
+.MainTitle {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+
+}
+
+.MainP {
+    padding-top: 25px;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 35rem;
+}
+
+.TwoMain {
+    padding-top: 40px;
+
+}
+
+.TwoButton {
+    
+    margin-bottom: 45px;
+    width: 275px;
+    height: 55px;
+    color:white;
+    background-color: rgb(10, 132, 219);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:large
+
+}
+
+.TwoP {
+    font-size: 16px;
+    width: 85vh;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 70px;
+    
+}
+
+.Section {
+    padding-top: 13px;
+    padding-left: 35px;
+    
+}
+
+
+
+.SectionTexto {
+    font-size: 40px;
+    width: 550px;
+
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.SectionTexto2 {
+    padding-top: 20px;
+    font-size: 25px;
+    
+}
+
+.SectionImage {
+    width: 200px;
+    height: 140px;
+    
+}
+
+.SectionDivImg {
+    padding-left: 50px;
+}
+
+.Flex {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.SSection {   
+    color: white;
+    background: black;
+    padding-bottom: 100px;
+    padding-top: 90px;
+    
+
+}
+
+.SSection, BG2 
+{
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url("/img/2Section\ Grad.jpg");
+}
+
+.SSectionDiv {
+    padding-right: 1.5px;
+    padding-left: 120vh;
+    font-size: 22px;
+    
+}
+
+.SSectionH1 {
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 190%;
+}
+
+.SButtonDiv {
+    padding-left: 119.5vh;
+    padding-top: 55px;
+}
+
+.SButton {
+    font-size: 16px;
+    width: 280px;
+    height: 55px;
+    margin-bottom: 45px;
+    color:white;
+    background-color: rgb(10, 132, 219);
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.SSSection {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-right: 100px;
+    padding-left: 115px;
+    padding-top: 60px;
+    font-size: 20px;
+
+}
+
+.SSSIMG {
+    padding-right: 110px;
+}
+
+.SSSTEXTOH {
+    display: flex;
+    justify-content:space-between;
+    font-family: 'Lato', sans-serif;
+    width: 370px;
+    font-size: 40px;
+    text-align: center;
+    padding-right: 70px;
+    padding-left: ;
+}
+
+.SSSTEXTOP {
+    padding-top: 10px;
+    text-align: center;
+    padding-right: 70px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Footer {
+    text-align: center;
+    background-color: #000033;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Footerimg {
+
+}
+
+.Footerp {
+    color: powderblue;
+}
+
+#Footerp {
+    color: #909090;
+}
